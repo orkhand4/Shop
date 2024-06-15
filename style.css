@@ -8,11 +8,17 @@
   border: none;
   outline: none;
   box-sizing: border-box;
+}
+
+body{
   font-family: "Poppins", sans-serif;
 }
 
+/* HEADER START */
 
-.header-area{
+
+.header-area>nav{
+  width: 100%;
   background: #F2E1D9;
   padding: 13px;
   display: flex;
@@ -47,10 +53,183 @@
   color: #000;
 }
 
+.header-search> i{
+  padding-top:  30px;
+}
+
 .header-profile{
   display: flex;
   font-size: 14px;
   font-weight: 600;
+  padding: 20px 40px;
+}
+
+.header-profile> p{
+  padding: 10px 20px;
+}
+
+.header-profile> img{
+  width: 20px;
 }
 
 
+/* HEADER END */
+
+
+/* HERO START */
+
+.hero{
+  margin-bottom: 100px;
+}
+
+.bg-image{
+  width: 96%;
+  height: 800px;
+  background-image: url(images/hero-bg-image.webp);
+  background-position: center;  
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.bg-image::before{
+  content: '';
+  background: #F2E1D9;
+  width: 1100px;
+  height: 980px;
+  position: absolute;
+  right: 0;
+  z-index: -999;
+}
+
+.furniture-card{
+  width: calc(50% - 50px);
+  background: #fff;
+}
+
+.furniture{
+  padding: 39px 80px 56px 68px;
+}
+
+.furniture> span{
+  color: #7F85A8;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.furniture>h1{
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.furniture>p{
+  color: #646D77;
+  font-size: 18px;
+}
+
+.hero-btn{
+  font-size: 16px;
+}
+
+.furniture>.hero-btn>button{
+  color: #fff;
+  background-color: #FD8F5F;
+  padding: 20px 50px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: ;
+  margin-top: 25px;
+}
+
+
+
+
+/* HERO END */
+
+
+/* POPULAR-PRODUCTS START */
+
+.popular-products{
+  margin: 150px 0px;
+}
+
+.heading{
+  text-align: center;
+  padding: 30px 300px;
+    margin-bottom: 60px;
+}
+
+.heading> h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.heading> p{
+  color: #7F85A8;
+}
+
+.popular-products> ul{
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #E7EBF2;
+}
+
+.popular-products> ul> li{
+  padding: 0px 30px 30px 30px;
+}
+
+.products-wrapper{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin: 50px 30px;
+}
+
+.products-wrapper> .product{
+  width: 33.3333%;
+  border: .1px solid #E7EBF2;
+}
+
+.products-wrapper> .product> img{
+  width: 100%;
+}
+
+.products-wrapper> .product> .product-content{
+  text-align: center;
+  padding: 31px 15px;
+}
+
+.products-wrapper> .product> .product-content> a{
+  display: block;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.products-wrapper> .product> .product-content> span{
+  color: #670000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+/* POPULAR-PRODUCTS END */
+
+
+
+/* BEST-FURNITURE START */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BEST-FURNITURE END */
