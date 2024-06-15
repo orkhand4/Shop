@@ -346,3 +346,95 @@ button:hover{
 
 
 /* TOP-PICK END */
+
+
+
+/*FOOTER START*/
+
+
+
+footer {
+  padding: 50px 65px ;
+  background-color: #1D2547;
+}
+
+footer>.footer-about{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+footer>.footer-about>.footer-about-logo{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 400px;
+}
+
+footer>.footer-about>.footer-about-logo>img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+footer>.footer-about>.footer-about-logo>p{
+  color: #C2C5DB;
+}
+
+footer>.footer-about>.footer-about-logo>div>i{
+  color: white;
+  padding: 0 10px;
+  border-radius: 50%;
+  width: 40px;
+  line-height: 40px;
+  border: 1px solid white;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+footer>.footer-about>.footer-about-logo>div>i:hover{
+  background:  #d65b23;
+}
+
+footer>.footer-about>.footer-about-select{
+  display: flex;
+  width: 55%;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+footer>.footer-about>.footer-about-select>div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer>.footer-about>.footer-about-select>div>h2{
+  color: white;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+footer>.footer-about>.footer-about-select>div>a{
+  color: #A29FB0;
+  transition: .4s;
+}
+
+footer>.footer-about>.footer-about-select>div>a:hover{
+  color: #d65b23;
+}
+
+footer>h4{
+  color: #C2C5DB;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 70px ;
+}
+
+footer>h4>i,span{
+  color: #FD764F;
+}
+
+/*FOOTER END*/
